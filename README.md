@@ -116,7 +116,8 @@ jupyter notebook
 
 ### Data Quality Assessment
 - **Dataset**: 7,605 total records across 3 assets
-- **Coverage**: July 1, 2015 to July 31, 202- **Quality**: No missing values, comprehensive preprocessing
+- **Coverage**: Jul 1, 2015 to Jul 31, 2025
+- **Quality**: No missing values, comprehensive preprocessing
 
 ### Risk-Return Profiles
 | Asset | Annual Return | Annual Volatility | Sharpe Ratio | Max Drawdown |
@@ -129,6 +130,18 @@ jupyter notebook
 - **ARIMA Model**: Strong statistical foundation, interpretable results
 - **LSTM Model**: Captures complex patterns, superior for non-linear relationships
 - **Ensemble Approach**: Combines strengths of both methodologies
+
+##  Visual Highlights
+
+Below are selected visuals exported from the notebooks. See more in `docs/`.
+
+![Efficient Frontier](docs/images/Portfolio_Optimization_10_1.png)
+
+![Forecast Diagnostics](docs/images/Time_Series_Forecasting_for_Portfolio_Management_Optimization_16_2.png)
+
+![Forecast vs Actual](docs/images/Time_Series_Forecasting_for_Portfolio_Management_Optimization_18_0.png)
+
+![Cumulative Performance](docs/images/Time Series Forecasting Models_21_1.png)
 
 ##  Configuration
 
