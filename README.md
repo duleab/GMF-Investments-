@@ -3,21 +3,32 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/duleab/GMF-Investments-?style=flat-square)](https://github.com/duleab/GMF-Investments-/commits/master)
+[![Issues](https://img.shields.io/github/issues/duleab/GMF-Investments-?style=flat-square)](https://github.com/duleab/GMF-Investments-/issues)
+
+> **A data-driven investment strategy leveraging advanced time series forecasting and portfolio optimization to maximize returns while managing risk.**
+
+---
 
 ##  Project Overview
 
-Guide Me in Finance (GMF) Investments is a financial advisory firm specializing in data-driven portfolio management. This project develops and implements advanced time series forecasting models to optimize investment portfolios and enhance client returns while effectively managing risk.
+Guide Me in Finance (GMF) Investments is a financial advisory firm specializing in data-driven portfolio management.  
+This project develops and implements advanced time series forecasting models to optimize investment portfolios, enhance client returns, and manage risk effectively.
+
+---
 
 ##  Objectives
 
-- **Data Analysis**: Comprehensive analysis of historical financial data using YFinance API
-- **Predictive Modeling**: Build robust forecasting models for market trend prediction
-- **Portfolio Optimization**: Optimize asset allocation based on forecasting insights
-- **Strategy Validation**: Validate investment strategies through rigorous backtesting
+- **Data Analysis**: Comprehensive analysis of historical financial data using YFinance API  
+- **Predictive Modeling**: Build robust forecasting models for market trend prediction  
+- **Portfolio Optimization**: Optimize asset allocation based on forecasting insights  
+- **Strategy Validation**: Validate investment strategies through rigorous backtesting  
+
+---
 
 ##  Assets Under Analysis
 
-Historical data (2015-2025) for three strategically selected assets:
+Historical data (2015–2025) for three strategically selected assets:
 
 | Asset | Symbol | Type | Purpose |
 |-------|--------|------|----------|
@@ -25,39 +36,52 @@ Historical data (2015-2025) for three strategically selected assets:
 | Vanguard Total Bond ETF | BND | Stable fixed income | Stability component |
 | S&P 500 ETF | SPY | Market benchmark | Market exposure |
 
+---
+
 ##  Technical Implementation
 
 ### Core Technologies
-- **Python 3.8+**: Primary programming language
-- **Jupyter Notebooks**: Interactive development environment
-- **YFinance**: Financial data extraction
-- **Pandas/NumPy**: Data manipulation and analysis
-- **Scikit-learn**: Machine learning implementations
-- **TensorFlow/Keras**: Deep learning models (LSTM)
-- **Statsmodels**: Statistical time series analysis (ARIMA/SARIMA)
-- **Matplotlib/Seaborn**: Data visualization
+- **Python 3.8+**
+- **Jupyter Notebooks**
+- **YFinance**, **Pandas**, **NumPy**
+- **Scikit-learn**, **TensorFlow/Keras**
+- **Statsmodels**
+- **Matplotlib**, **Seaborn**
 
 ### Key Features
-- **Advanced Data Processing**: Comprehensive cleaning and preprocessing pipeline
-- **Statistical Analysis**: Stationarity testing, correlation analysis, risk metrics
-- **Multiple Model Types**: ARIMA/SARIMA statistical models and LSTM neural networks
-- **Performance Evaluation**: MAE, RMSE, MAPE, Sharpe Ratio, VaR calculations
-- **Portfolio Optimization**: Modern Portfolio Theory implementation
-- **Risk Management**: Comprehensive risk assessment and management tools
+- Advanced data cleaning & preprocessing  
+- Stationarity testing & correlation analysis  
+- ARIMA/SARIMA & LSTM model implementation  
+- Portfolio optimization using Modern Portfolio Theory  
+- Backtesting and performance evaluation  
+
+---
+
+##  Project Structure
+
+
 
 ##  Project Structure
 
 ```
 Week11/
-├── README.md                                                    # Project documentation
-├── Time_Series_Forecasting_for_Portfolio_Management_Optimization.ipynb  # Main analysis notebook
-├── Time Series Forecasting Models.ipynb                        # TSLA forecasting models
+├── README.md
+├── Notebook/
+│ ├── Time_Series_Forecasting_for_Portfolio_Management_Optimization.ipynb
+│ ├── Time Series Forecasting Models.ipynb
+│ ├── Portfolio_Optimization.ipynb
+│ └── Strategy_Validation.ipynb
 ├── data/
-│   └── gmf_financial_data_cleaned.xlsx                        # Processed dataset
+│ ├── gmf_financial_data_cleaned.xlsx
+│ ├── forecasting_results.json
+│ ├── portfolio_optimization_results.json
+│ └── strategy_validation_results.json
 ├── docs/
-│   ├── methodology.md                                          # Technical methodology
-│   └── task.md                                                # Project requirements
-└── requirements.txt                                            # Python dependencies
+│ ├── Portfolio_Optimization.md
+│ ├── Strategy_Validation.md
+│ ├── Time Series Forecasting Models.md
+│ └── Time_Series_Forecasting_for_Portfolio_Management_Optimization.md
+└── requirements.txt
 ```
 
 ##  Getting Started
