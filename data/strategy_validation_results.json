@@ -1,0 +1,46 @@
+{
+  "Maximum Sharpe Ratio Portfolio": {
+    "Total Return": 1.2986123888523884,
+    "Annual Return": 1.321778322497929,
+    "Annual Volatility": 0.5264877423242793,
+    "Sharpe Ratio": 2.4725709980463804,
+    "Sortino Ratio": 4.15195913993658,
+    "Maximum Drawdown": -0.3271970986765209,
+    "Value at Risk (95%)": -0.050141290791737125,
+    "Value at Risk (99%)": -0.07868873771554408,
+    "Calmar Ratio": 4.03970062034287
+  },
+  "Minimum Volatility Portfolio": {
+    "Total Return": 0.06230874705187195,
+    "Annual Return": 0.06308265327713203,
+    "Annual Volatility": 0.07080414884973617,
+    "Sharpe Ratio": 0.6084763954802143,
+    "Sortino Ratio": 1.1748360952636858,
+    "Maximum Drawdown": -0.0651100426171578,
+    "Value at Risk (95%)": -0.006496222082089106,
+    "Value at Risk (99%)": -0.009134279155585115,
+    "Calmar Ratio": 0.9688621100749899
+  },
+  "Equal Weight Portfolio": {
+    "Total Return": 0.49318595393158615,
+    "Annual Return": 0.5004158861666794,
+    "Annual Volatility": 0.20719152721497539,
+    "Sharpe Ratio": 2.3187043052596215,
+    "Sortino Ratio": 3.9330533051593073,
+    "Maximum Drawdown": -0.15610217924075753,
+    "Value at Risk (95%)": -0.017669614194084554,
+    "Value at Risk (99%)": -0.030083995807694403,
+    "Calmar Ratio": 3.2056944278457786
+  },
+  "60/40 Portfolio (SPY/BND)": {
+    "Total Return": 0.17851577644136807,
+    "Annual Return": 0.18085035183676856,
+    "Annual Volatility": 0.08792101604559271,
+    "Sharpe Ratio": 1.829486953987853,
+    "Sortino Ratio": 3.1311700769076336,
+    "Maximum Drawdown": -0.07716262015891462,
+    "Value at Risk (95%)": -0.008645757064134507,
+    "Value at Risk (99%)": -0.011461521081760047,
+    "Calmar Ratio": 2.3437559723129087
+  }
+}
